@@ -1,0 +1,95 @@
+current_time: 2024-09-19_01-33-54
+Seed set to 1111
+You are using a CUDA device ('NVIDIA GeForce RTX 3090 Ti') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+****************************************************************************************************
+Modeling for the MOSEI dataset is about to begin...
+**************************************************
+Adding Contrastive Learning Loss...
+**************************************************
+Adding multi-dimensional VA emotion information to guide positive and negative sample pairs...
+**************************************************
+Using glove
+**************************************************
+Preparing to perform a MMER task using text, audio, and visual data...
+**************************************************
+loading MOSEI multimodal_T+A+V_train...
+  - Found cached train data
+loading MOSEI multimodal_T+A+V_valid...
+  - Found cached valid data
+loading MOSEI multimodal_T+A+V_test...
+  - Found cached test data
+**TRG** | Epoch  1 | Batch 400/510 | Time/Batch(ms) 573.12 | Train Loss 12.2856
+**************************************************
+**TRG** | Epoch 1 | Time 5.1272min | Val_Loss 10.2632 | ACC 42.81 | HL 0.230 | miF1 50.03 | maF1 24.76
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-01-44-45.pth
+**TRG** | Epoch  2 | Batch 400/510 | Time/Batch(ms) 575.49 | Train Loss 10.7034
+**************************************************
+**TRG** | Epoch 2 | Time 5.151min | Val_Loss 11.6367 | ACC 32.65 | HL 0.295 | miF1 44.29 | maF1 20.49
+--------------------------------------------------
+**TRG** | Epoch  3 | Batch 400/510 | Time/Batch(ms) 577.99 | Train Loss 10.0003
+**************************************************
+**TRG** | Epoch 3 | Time 5.1703min | Val_Loss 10.1469 | ACC 44.14 | HL 0.211 | miF1 50.33 | maF1 21.83
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-01-55-05.pth
+**TRG** | Epoch  4 | Batch 400/510 | Time/Batch(ms) 578.08 | Train Loss 9.4622
+**************************************************
+**TRG** | Epoch 4 | Time 5.1692min | Val_Loss 10.0796 | ACC 45.13 | HL 0.221 | miF1 53.51 | maF1 26.50
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-02-00-15.pth
+**TRG** | Epoch  5 | Batch 400/510 | Time/Batch(ms) 578.43 | Train Loss 9.2587
+**************************************************
+**TRG** | Epoch 5 | Time 5.1729min | Val_Loss 9.6602 | ACC 42.28 | HL 0.247 | miF1 53.53 | maF1 31.49
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-02-05-26.pth
+**TRG** | Epoch  6 | Batch 400/510 | Time/Batch(ms) 579.02 | Train Loss 9.1065
+**************************************************
+**TRG** | Epoch 6 | Time 5.1771min | Val_Loss 10.1853 | ACC 38.34 | HL 0.258 | miF1 50.78 | maF1 32.48
+--------------------------------------------------
+**TRG** | Epoch  7 | Batch 400/510 | Time/Batch(ms) 579.38 | Train Loss 8.9656
+**************************************************
+**TRG** | Epoch 7 | Time 5.1804min | Val_Loss 9.3247 | ACC 46.03 | HL 0.217 | miF1 54.89 | maF1 34.18
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-02-15-48.pth
+**TRG** | Epoch  8 | Batch 400/510 | Time/Batch(ms) 578.71 | Train Loss 8.7499
+**************************************************
+**TRG** | Epoch 8 | Time 5.1756min | Val_Loss 9.2873 | ACC 45.93 | HL 0.214 | miF1 55.26 | maF1 33.77
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-02-20-59.pth
+**TRG** | Epoch  9 | Batch 400/510 | Time/Batch(ms) 578.71 | Train Loss 8.6888
+**************************************************
+**TRG** | Epoch 9 | Time 5.1765min | Val_Loss 9.5826 | ACC 43.98 | HL 0.234 | miF1 53.48 | maF1 34.12
+--------------------------------------------------
+**TRG** | Epoch 10 | Batch 400/510 | Time/Batch(ms) 579.40 | Train Loss 8.5549
+**************************************************
+**TRG** | Epoch 10 | Time 5.1817min | Val_Loss 9.3303 | ACC 46.13 | HL 0.211 | miF1 53.93 | maF1 31.16
+--------------------------------------------------
+**TRG** | Epoch 11 | Batch 400/510 | Time/Batch(ms) 579.79 | Train Loss 8.4167
+**************************************************
+**TRG** | Epoch 11 | Time 5.1849min | Val_Loss 9.1464 | ACC 46.08 | HL 0.219 | miF1 55.09 | maF1 33.11
+--------------------------------------------------
+**TRG** | Epoch 12 | Batch 400/510 | Time/Batch(ms) 579.32 | Train Loss 8.2698
+**************************************************
+**TRG** | Epoch 12 | Time 5.1813min | Val_Loss 9.3336 | ACC 46.02 | HL 0.210 | miF1 54.21 | maF1 31.93
+--------------------------------------------------
+**TRG** | Epoch 13 | Batch 400/510 | Time/Batch(ms) 579.76 | Train Loss 8.2367
+**************************************************
+**TRG** | Epoch 13 | Time 5.1846min | Val_Loss 9.2125 | ACC 46.41 | HL 0.214 | miF1 55.37 | maF1 36.06
+--------------------------------------------------
+Saving best_model:/home/devin/UniVA-0918/save/best_model_T+A+V_09-19-02-46-54.pth
+**TRG** | Epoch 14 | Batch 400/510 | Time/Batch(ms) 579.26 | Train Loss 8.0961
+**************************************************
+**TRG** | Epoch 14 | Time 5.1802min | Val_Loss 9.0575 | ACC 46.12 | HL 0.213 | miF1 55.06 | maF1 34.51
+--------------------------------------------------
+**TRG** | Epoch 15 | Batch 400/510 | Time/Batch(ms) 579.23 | Train Loss 8.0025
+**************************************************
+**TRG** | Epoch 15 | Time 5.1797min | Val_Loss 9.0750 | ACC 46.07 | HL 0.214 | miF1 55.31 | maF1 35.50
+--------------------------------------------------
+**************************************************
+Prepare to evaluate the best model:best_model_T+A+V_09-19-02-46-54.pth
+The results on the T+A+V modality:
+Acc: 49.21,
+HL: 0.205,
+miF1: 57.15,
+maF1: 37.19
+

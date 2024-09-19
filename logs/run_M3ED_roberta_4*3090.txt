@@ -1,0 +1,99 @@
+current_time: 2024-09-18_08-26-24
+Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[rank: 1] Seed set to 1111
+[rank: 2] Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[rank: 3] Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+You are using a CUDA device ('NVIDIA GeForce RTX 3090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+****************************************************************************************************
+Modeling for the M3ED dataset is about to begin...
+**************************************************
+Adding Contrastive Learning Loss...
+**************************************************
+Adding multi-dimensional VA emotion information to guide positive and negative sample pairs...
+**************************************************
+Adding label relation prior...
+**************************************************
+Using chinese-roberta-wwm-ext
+**************************************************
+Preparing to perform a MMER task using text, audio, and visual data...
+**************************************************
+loading M3ED multimodal_T+A+V_train...
+  - Found cached train data
+loading M3ED multimodal_T+A+V_valid...
+  - Found cached valid data
+loading M3ED multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading M3ED multimodal_T+A+V_train...
+  - Found cached train data
+loading M3ED multimodal_T+A+V_valid...
+  - Found cached valid data
+loading M3ED multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading M3ED multimodal_T+A+V_train...
+  - Found cached train data
+loading M3ED multimodal_T+A+V_valid...
+  - Found cached valid data
+loading M3ED multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading M3ED multimodal_T+A+V_train...
+  - Found cached train data
+loading M3ED multimodal_T+A+V_valid...
+  - Found cached valid data
+loading M3ED multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+**TRG** | Epoch 1 | Time 3.2602min | Val_Loss 2.5515 | ACC 40.34 | HL 0.186 | miF1 47.78 | maF1 30.26
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-34-14.pth
+**************************************************
+**TRG** | Epoch 2 | Time 3.1744min | Val_Loss 2.3716 | ACC 43.96 | HL 0.186 | miF1 49.09 | maF1 35.59
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-37-32.pth
+**************************************************
+**TRG** | Epoch 3 | Time 3.2069min | Val_Loss 2.2733 | ACC 45.14 | HL 0.172 | miF1 49.58 | maF1 35.51
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-40-51.pth
+**************************************************
+**TRG** | Epoch 4 | Time 3.1628min | Val_Loss 2.1635 | ACC 45.94 | HL 0.163 | miF1 50.94 | maF1 39.02
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-44-03.pth
+**************************************************
+**TRG** | Epoch 5 | Time 3.1693min | Val_Loss 2.2311 | ACC 46.57 | HL 0.165 | miF1 51.83 | maF1 41.65
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-47-19.pth
+**************************************************
+**TRG** | Epoch 6 | Time 3.2372min | Val_Loss 2.2840 | ACC 48.32 | HL 0.160 | miF1 51.92 | maF1 38.92
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-50-39.pth
+**************************************************
+**TRG** | Epoch 7 | Time 3.1757min | Val_Loss 2.2513 | ACC 49.13 | HL 0.154 | miF1 52.65 | maF1 41.57
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-53-53.pth
+**************************************************
+**TRG** | Epoch 8 | Time 3.1643min | Val_Loss 2.2329 | ACC 48.51 | HL 0.157 | miF1 52.33 | maF1 43.17
+--------------------------------------------------
+**************************************************
+**TRG** | Epoch 9 | Time 3.2206min | Val_Loss 2.2280 | ACC 49.08 | HL 0.157 | miF1 52.16 | maF1 43.05
+--------------------------------------------------
+**************************************************
+**TRG** | Epoch 10 | Time 3.1972min | Val_Loss 2.2316 | ACC 48.56 | HL 0.159 | miF1 51.51 | maF1 42.01
+--------------------------------------------------
+**************************************************
+Prepare to evaluate the best model:best_model_T+A+V_09-18-08-53-53.pth
+The results on the T+A+V modality:
+Acc: 50.64,
+HL: 0.149,
+miF1: 53.44,
+maF1: 40.21

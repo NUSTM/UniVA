@@ -1,0 +1,80 @@
+current_time: 2024-09-18_07-58-58
+Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+[rank: 1] Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[rank: 2] Seed set to 1111
+[rank: 3] Seed set to 1111
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+You are using a CUDA device ('NVIDIA GeForce RTX 3090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+****************************************************************************************************
+Modeling for the MOSEI dataset is about to begin...
+**************************************************
+Adding Contrastive Learning Loss...
+**************************************************
+Adding multi-dimensional VA emotion information to guide positive and negative sample pairs...
+**************************************************
+Adding label relation prior...
+**************************************************
+Using roberta-base
+**************************************************
+Preparing to perform a MMER task using text, audio, and visual data...
+**************************************************
+loading MOSEI multimodal_T+A+V_train...
+  - Found cached train data
+loading MOSEI multimodal_T+A+V_valid...
+  - Found cached valid data
+loading MOSEI multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading MOSEI multimodal_T+A+V_train...
+  - Found cached train data
+loading MOSEI multimodal_T+A+V_valid...
+  - Found cached valid data
+loading MOSEI multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading MOSEI multimodal_T+A+V_train...
+  - Found cached train data
+loading MOSEI multimodal_T+A+V_valid...
+  - Found cached valid data
+loading MOSEI multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+loading MOSEI multimodal_T+A+V_train...
+  - Found cached train data
+loading MOSEI multimodal_T+A+V_valid...
+  - Found cached valid data
+loading MOSEI multimodal_T+A+V_test...
+  - Found cached test data
+**************************************************
+**TRG** | Epoch 1 | Time 3.8987min | Val_Loss 1.8741 | ACC 43.34 | HL 0.214 | miF1 49.92 | maF1 23.37
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-03-41.pth
+**************************************************
+**TRG** | Epoch 2 | Time 3.8863min | Val_Loss 1.7892 | ACC 45.43 | HL 0.201 | miF1 53.95 | maF1 31.26
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-07-40.pth
+**************************************************
+**TRG** | Epoch 3 | Time 3.9228min | Val_Loss 1.5912 | ACC 47.27 | HL 0.200 | miF1 57.08 | maF1 41.09
+--------------------------------------------------
+Saving best_model:/root/data1/UniVA-V0822/save/best_model_T+A+V_09-18-08-11-41.pth
+**************************************************
+**TRG** | Epoch 4 | Time 3.887min | Val_Loss 1.5753 | ACC 45.53 | HL 0.220 | miF1 55.39 | maF1 40.17
+--------------------------------------------------
+**************************************************
+**TRG** | Epoch 5 | Time 3.9262min | Val_Loss 1.5822 | ACC 46.53 | HL 0.210 | miF1 55.95 | maF1 39.79
+--------------------------------------------------
+**************************************************
+Prepare to evaluate the best model:best_model_T+A+V_09-18-08-11-41.pth
+The results on the T+A+V modality:
+Acc: 51.28,
+HL: 0.182,
+miF1: 60.45,
+maF1: 44.40
