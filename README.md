@@ -10,7 +10,8 @@
 
 This repository contains the code for UniVA, a framework that proposes unimodal valence-arousal driven contrastive learning for the multimodal multi-label emotion recognition task.
 
-![overview.png](overview.jpg)
+<img src="overview.jpg" alt="overview" width="950"/>
+
 
 ### Dependencies
 
