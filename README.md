@@ -22,7 +22,7 @@ conda env create -f environment.yml
 
 ### Data preparation
 
-[Download link](https://huggingface.co/NUSTM/UniVA)
+[Download link](https://pan.baidu.com/s/1UMCAq2Yu-RLV0t-w0-08hg?pwd=xedi). Also, there are two files that, due to upload size limitations, have been placed at the [link](https://huggingface.co/NUSTM/UniVA/tree/main).
 ***
 
 ### Evaluating UniVA on the MOSEI dataset
