@@ -6,7 +6,7 @@
 [![Conference](https://img.shields.io/badge/ACMMM-2024-green)](https://2024.acmmm.org/)
 </div>
 
-📄 [Paper](https://dl.acm.org/doi/10.1145/3664647.3681638)
+📄 [Paper](https://dl.acm.org/doi/10.1145/3664647.3681638) 📽️ [Slides](Oct29.2024.oral.pdf)
 
 This repository contains the code for UniVA, a framework that proposes unimodal valence-arousal driven contrastive learning for the multimodal multi-label emotion recognition task.
 
