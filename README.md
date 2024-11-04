@@ -57,10 +57,11 @@ you can get the following results: Acc`46.4` HL`0.159` miF1`49.1` maF1`24.2`
 
 Please consider citing the following if this repo is helpful to your research.
 ```
-@inproceedings{zheng2024univa,
+@inproceedings{zheng2024unimodal,
   title={A Unimodal Valence-Arousal Driven Contrastive Learning Framework for Multimodal Multi-Label Emotion Recognition},
   author={Zheng, Wenjie and Yu, Jianfei and Xia, Rui},
-  booktitle={Proceedings of the 32st ACM International Conference on Multimedia},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={622--631},
   year={2024}
 }
 ```
